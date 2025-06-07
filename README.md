@@ -1,20 +1,22 @@
-# Apache Spark
+# Apache Spark Internals – Catalyst Optimizer
 
-This repository highlights key components of **Apache Spark** with a focus on the **Catalyst Optimizer**, the core engine responsible for query optimization in Spark SQL and DataFrames.
+A detailed, beginner-friendly explanation of the Catalyst Optimizer – Spark SQL’s core query optimization engine.
 
-## 🔍 Covered Topics
+## 📘 What You'll Learn
 
 - What is Catalyst Optimizer?
-- Why it is important for performance and abstraction
-- Catalyst’s four-phase architecture
-- Driver vs Executor responsibilities
+- Why is it important?
+- Its 4-phase architecture:
+  - Analysis
+  - Logical Optimization
+  - Physical Planning
+  - Code Generation (Tungsten)
+- Driver vs Executors
 
-## 📘 Read the Guide
+## 🗂️ Repository Contents
 
-Access the detailed PDF overview here:
+- 📄 [PDF Guide](./docs/Spark_Catalyst_Optimizer_Overview.pdf)
 
-➡️ [Spark Catalyst Optimizer Overview](./docs/Spark_Catalyst_Optimizer_Overview.pdf)
+## 💡 Purpose
 
-## 💼 About
-
-This repository is part of my technical portfolio to demonstrate deep understanding of Spark's internals, especially useful for data engineering and big data roles.
+This project is part of my technical portfolio to demonstrate system-level understanding of Apache Spark internals, useful in big data engineering roles.
